@@ -8,8 +8,11 @@ session_start();
 
 // Configuration
 define('ADMIN_PASSWORD', 'spartanadmin2025'); // CHANGE THIS PASSWORD!
-define('LICENSE_DB_FILE', __DIR__ . '/licenses.json');
-define('LOG_FILE', __DIR__ . '/license_log.txt');
+
+// Use persistent volume directory if available (Railway), otherwise use local directory
+$data_dir = is_dir('/data') && is_writable('/data') ? '/data' : __DIR__;
+define('LICENSE_DB_FILE', $data_dir . '/licenses.json');
+define('LOG_FILE', $data_dir . '/license_log.txt');
 
 // Authentication Check
 if (!isset($_SESSION['admin_logged_in'])) {
