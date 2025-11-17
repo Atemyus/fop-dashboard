@@ -1,0 +1,146 @@
+{
+    "FOS-C5CF1450E8BF-2025": {
+        "status": "active",
+        "expires": "2026-09-24",
+        "max_machines": 1,
+        "machines": [
+            {
+                "fingerprint": "3330313338313631382D4350544D6172",
+                "account_number": "301381618",
+                "first_seen": "2025-08-24 17:06:34",
+                "last_seen": "2025-08-24 17:06:34",
+                "ip_address": "45.146.123.30"
+            }
+        ],
+        "created": "2025-08-24 16:59:10",
+        "client_info": "Danny"
+    },
+    "FOS-3DC9332D1CE5-2025": {
+        "status": "active",
+        "expires": "2025-09-24",
+        "max_machines": 7,
+        "machines": [
+            {
+                "fingerprint": "3330313338313631382D4350544D6172",
+                "account_number": "301381618",
+                "first_seen": "2025-08-24 17:13:10",
+                "last_seen": "2025-09-04 06:51:50",
+                "ip_address": "45.146.123.30"
+            },
+            {
+                "fingerprint": "343836383236312D46504D61726B6574",
+                "account_number": "4868261",
+                "first_seen": "2025-08-24 17:13:27",
+                "last_seen": "2025-09-05 15:14:05",
+                "ip_address": "45.146.123.30"
+            },
+            {
+                "fingerprint": "3130303633323031302D50555072696D",
+                "account_number": "100632010",
+                "first_seen": "2025-08-24 17:19:37",
+                "last_seen": "2025-09-05 15:13:17",
+                "ip_address": "45.146.123.30"
+            },
+            {
+                "fingerprint": "36333237303131312D526F626F466F72",
+                "account_number": "63270111",
+                "first_seen": "2025-08-24 17:25:02",
+                "last_seen": "2025-09-05 15:16:04",
+                "ip_address": "45.146.123.30"
+            },
+            {
+                "fingerprint": "3731353534352D467573696F6E4D6172",
+                "account_number": "715545",
+                "first_seen": "2025-09-01 18:03:01",
+                "last_seen": "2025-09-05 17:23:02",
+                "ip_address": "45.146.123.30"
+            },
+            {
+                "fingerprint": "37363638353938352D4176612D526561",
+                "account_number": "76685985",
+                "first_seen": "2025-09-01 18:18:08",
+                "last_seen": "2025-09-02 21:58:43",
+                "ip_address": "45.146.123.30"
+            },
+            {
+                "fingerprint": "3138363237342D50657070657273746F",
+                "account_number": "186274",
+                "first_seen": "2025-09-02 00:24:31",
+                "last_seen": "2025-09-04 00:52:42",
+                "ip_address": "185.172.114.38"
+            }
+        ],
+        "created": "2025-08-24 17:10:36",
+        "client_info": "Danny"
+    },
+    "FOS-923D95C0AB0B-2025": {
+        "status": "active",
+        "expires": "2025-09-27",
+        "max_machines": 10,
+        "machines": [
+            {
+                "fingerprint": "3130303539363137362D50555072696D",
+                "account_number": "100596176",
+                "first_seen": "2025-08-31 16:44:08",
+                "last_seen": "2025-08-31 17:42:26",
+                "ip_address": "93.40.208.222"
+            }
+        ],
+        "created": "2025-08-27 16:54:36",
+        "client_info": "Licenza Daniel Codex"
+    },
+    "FOS-315BD491E7F8-2025": {
+        "status": "active",
+        "expires": "2025-09-27",
+        "max_machines": 10,
+        "machines": [
+            {
+                "fingerprint": "313432303433383339382D46544D4F2D",
+                "account_number": "1420438398",
+                "first_seen": "2025-08-28 05:12:15",
+                "last_seen": "2025-08-29 06:18:37",
+                "ip_address": "87.21.178.97"
+            },
+            {
+                "fingerprint": "313432303433383539302D46544D4F2D",
+                "account_number": "1420438590",
+                "first_seen": "2025-08-28 09:34:25",
+                "last_seen": "2025-09-05 08:20:03",
+                "ip_address": "158.220.127.169"
+            },
+            {
+                "fingerprint": "3138383531382D50657070657273746F",
+                "account_number": "188518",
+                "first_seen": "2025-09-05 09:56:03",
+                "last_seen": "2025-09-05 10:32:39",
+                "ip_address": "158.220.127.169"
+            }
+        ],
+        "created": "2025-08-27 17:09:13",
+        "client_info": "Licenza Daniele"
+    },
+    "FOS-977C7A02FA14-2025": {
+        "status": "active",
+        "expires": "2025-11-01",
+        "max_machines": 10,
+        "machines": [],
+        "created": "2025-09-01 11:21:34",
+        "client_info": "Licenza Fabiano"
+    },
+    "FOS-E8D0F81B4AD2-2025": {
+        "status": "active",
+        "expires": "2077-03-23",
+        "max_machines": 100,
+        "machines": [
+            {
+                "fingerprint": "343837333638342D46504D61726B6574",
+                "account_number": "4873684",
+                "first_seen": "2025-09-03 16:17:51",
+                "last_seen": "2025-09-05 12:45:31",
+                "ip_address": "185.126.227.143"
+            }
+        ],
+        "created": "2025-09-03 08:57:15",
+        "client_info": "Matteo admin"
+    }
+}

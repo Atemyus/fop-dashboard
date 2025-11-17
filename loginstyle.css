@@ -1,0 +1,315 @@
+/**
+ * FURY OF SPARTA - LOGIN PAGE STYLES
+ * Spartan-themed login interface
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Animated Particles Background */
+.particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.particle {
+  position: absolute;
+  background: linear-gradient(45deg, #d4af37, #ffd700);
+  border-radius: 50%;
+  animation: float 6s ease-in-out infinite;
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+}
+
+.particle:nth-child(1) {
+  animation-duration: 6s;
+}
+.particle:nth-child(2) {
+  animation-duration: 8s;
+}
+.particle:nth-child(3) {
+  animation-duration: 7s;
+}
+.particle:nth-child(4) {
+  animation-duration: 9s;
+}
+.particle:nth-child(5) {
+  animation-duration: 5s;
+}
+.particle:nth-child(6) {
+  animation-duration: 7s;
+}
+.particle:nth-child(7) {
+  animation-duration: 8s;
+}
+.particle:nth-child(8) {
+  animation-duration: 6s;
+}
+.particle:nth-child(9) {
+  animation-duration: 9s;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(100vh) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* Login Container */
+.login-container {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 50px 40px;
+  border-radius: 20px;
+  text-align: center;
+  backdrop-filter: blur(15px);
+  border: 2px solid rgba(212, 175, 55, 0.3);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 450px;
+  z-index: 10;
+  position: relative;
+  animation: slideUp 1s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Logo */
+.logo {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+  }
+  to {
+    text-shadow: 0 0 30px rgba(212, 175, 55, 0.8),
+      0 0 40px rgba(212, 175, 55, 0.5);
+  }
+}
+
+/* Title */
+.title {
+  font-size: 2.5rem;
+  color: #d4af37;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 40px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 1.1rem;
+  border: 2px solid rgba(212, 175, 55, 0.3);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.form-group input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #d4af37;
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* Login Button */
+.login-btn {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, #d4af37, #ffd700);
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
+}
+
+.login-btn:hover {
+  background: linear-gradient(135deg, #ffd700, #d4af37);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.5);
+}
+
+.login-btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4);
+}
+
+/* Security Notice */
+.security-notice {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  border-left: 4px solid #d4af37;
+}
+
+/* Additional Visual Effects */
+.login-container::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #d4af37, #ffd700, #d4af37, #b8941f);
+  border-radius: 22px;
+  z-index: -1;
+  animation: borderGlow 3s linear infinite;
+  opacity: 0.7;
+}
+
+@keyframes borderGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Error States */
+.form-group input.error {
+  border-color: #dc3545;
+  box-shadow: 0 0 20px rgba(220, 53, 69, 0.3);
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-container {
+    margin: 20px;
+    padding: 40px 30px;
+    max-width: none;
+  }
+
+  .logo {
+    font-size: 3rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .form-group input {
+    padding: 12px 15px;
+    font-size: 1rem;
+  }
+
+  .login-btn {
+    padding: 12px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-container {
+    padding: 30px 20px;
+  }
+
+  .logo {
+    font-size: 2.5rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+  }
+}
