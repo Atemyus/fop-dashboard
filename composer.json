@@ -3,7 +3,7 @@
   "description": "Fury of Sparta - License Management Dashboard",
   "type": "project",
   "require": {
-    "php": "^7.4|^8.0"
+    "php": ">=8.0"
   },
   "scripts": {
     "start": "php -S 0.0.0.0:${PORT:-8080} -t ."
