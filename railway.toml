@@ -2,12 +2,10 @@
 builder = "nixpacks"
 
 [deploy]
-startCommand = "bash start.sh"
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 10
 
 # Volume configuration for persistent data
-# The volume will be mounted at /data
-# This directory will persist across deployments
-[[deploy.volumes]]
-mountPath = "/data"
+# Uncomment these lines after creating the volume on Railway Dashboard
+# [[deploy.volumes]]
+# mountPath = "/data"
